@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home {
+    text-align: center;
+    height: 100vh;
+  }
+
+  .hero-section {
+    height: 100vh;
+    background-image: url(../images/home_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #d79c69;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 0 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+  
+  .tagline {
+    font-size: 30px;
+    font-family: 'Cursive', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    margin-top: 10px;
+    max-width: 1200px;
+    line-height: 1.8;
+    font-size: 25px;
+  }
+  
